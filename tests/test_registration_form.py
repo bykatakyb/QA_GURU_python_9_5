@@ -1,5 +1,7 @@
-from selene import browser, have, be, command
 import os
+
+from selene import browser, have, be, command
+
 
 def test_filling_form():
     # student registration form
